@@ -1,0 +1,66 @@
+.card-search {      
+    font-family: Roboto;
+    font-style: normal;
+    margin-bottom: 20px;
+    padding: 20px 14px 20px 10px;
+    background: #EDEDED;
+    border-radius: 10px;
+}
+
+.card-search input {    
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;    
+    padding: 10px 0px 10px 10px;
+    border-radius: 5px 0px 0px 5px;        
+    border: 1px solid #EDEDED;    
+    
+}
+
+.card-search button {    
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;    
+    text-align: center;
+    padding: 10px 10px 10px 15px;
+    color: #FFF;
+    background: #00285F;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #EDEDED;  
+}
+
+@media(min-width: 576px) {
+
+    .card-search {    
+        display: flex;
+        justify-content: center;
+        padding: 40px 20px;     
+    }
+
+    .card-search input {        
+        width: 310px;
+    }
+    .card-search button {
+        width: 160px;
+    }
+}
+
+@media(min-width: 768px) {
+    .card-search input {        
+        width: 500px;
+    } 
+}
+
+@media(min-width: 992px) {
+    .card-search input {        
+        width: 580px;
+        padding-left: 20px;
+    } 
+}
+
+@media(min-width: 1280px) {
+    .card-search {    
+        padding-left: 90px; 
+        padding-right: 120px;
+    }
+}
