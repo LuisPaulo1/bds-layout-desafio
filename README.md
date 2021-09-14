@@ -35,7 +35,7 @@ Pré-requisitos: yarn e Git
 # clonar repositório
 git clone https://github.com/LuisPaulo1/bds-layout-desafio.git
 
-# entrar na pasta do projeto frontend
+# entrar na pasta do projeto
 cd frontend
 
 # instalar dependências
